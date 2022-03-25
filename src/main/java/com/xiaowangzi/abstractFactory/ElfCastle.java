@@ -1,7 +1,7 @@
 package com.xiaowangzi.abstractFactory;
 
 public class ElfCastle implements Castle {
-    static final String DESCRIPTION = "This is the elven castle!";
+    public static final String DESCRIPTION = "This is the elven castle!";
 
     @Override
     public String getDescription() {

@@ -2,7 +2,7 @@ package com.xiaowangzi.abstractFactory;
 
 public class OrcKing implements King {
 
-    static final String DESCRIPTION = "This is the orc king!";
+    public static final String DESCRIPTION = "This is the orc king!";
 
     @Override
     public String getDescription() {
